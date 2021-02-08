@@ -27,6 +27,8 @@ import { LottieModule } from 'ngx-lottie';
 import player from 'lottie-web';
 import { LoadingComponent } from './components/loading/loading.component';
 import { LandingComponent } from './components/landing/landing.component';
+import { LoadingChartComponent } from './components/loading-chart/loading-chart.component';
+
 
 export function playerFactory() {
   return player;
@@ -48,6 +50,7 @@ export function playerFactory() {
     SelectedUserComponent,
     LoadingComponent,
     LandingComponent,
+    LoadingChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,7 +61,8 @@ export function playerFactory() {
     AngularFireStorageModule,
     FormsModule,
     HttpClientModule,
-    LottieModule.forRoot({ player: playerFactory })
+    LottieModule.forRoot({ player: playerFactory }),
+    
   ],
   providers: [
     AngularFirestore,
