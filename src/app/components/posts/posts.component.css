@@ -1,0 +1,6 @@
+.posts {
+    justify-content: center;
+    height: 90vh;
+    overflow: scroll;
+    padding-top: 2em;
+}

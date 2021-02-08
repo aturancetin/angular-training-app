@@ -1,0 +1,6 @@
+<div class="posts">
+    <div *ngIf="loadingIndicator"><app-loading></app-loading></div>
+    <app-post-card *ngFor="let post of posts" [post]="post"> 
+
+    </app-post-card>
+</div>
