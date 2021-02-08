@@ -1,0 +1,15 @@
+<div class="selectedUser">
+    
+    <p *ngIf="!user" style="margin: auto;"> Please select a user</p>
+    <div *ngIf="user" class="photo">
+        <img src="../../../assets/images/profilePhoto.png" height="100px" style="margin-bottom: 1em;">
+    </div>
+    <div *ngIf="user" class="userInfo">
+        <p>{{user?.id || "Please select a user"}}</p>
+        <p>{{user?.name }}</p>
+        <p>{{user?.email }}</p>
+        <p>{{user?.username}}</p>
+    </div>
+    
+</div>
+

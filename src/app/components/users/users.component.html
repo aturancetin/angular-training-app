@@ -1,0 +1,15 @@
+<div class="users">
+    
+    <div class="userList" >
+        <div class="title">
+            <h1>Users</h1>
+        </div>
+        <app-user-card *ngFor="let user of users" (click)="setSelectedUser(user)" [user]="user" ></app-user-card>
+    </div>
+    <div class="selectedUser">
+        <app-selected-user [user]="selectedUser"></app-selected-user>
+    </div>
+    
+    
+</div>
+

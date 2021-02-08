@@ -1,0 +1,16 @@
+.selectedUser {
+    width: 30vw;
+    display: flex;
+    margin: auto;
+    height: 30vh;
+    border: .1em solid cadetblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    border-radius: 10px;
+    padding-left: 1em;
+    align-items: center;
+}
+
+.photo {
+    
+    padding: 1em;
+}
