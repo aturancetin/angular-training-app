@@ -1,0 +1,7 @@
+<h1>{{completed}}</h1>
+<h1 *ngIf="authService.user | async">
+    Welcome User: {{ (authService.user | async)?.email }}!
+</h1>
+<div *ngFor="let todo of todos">{{todo.id}}</div>
+
+
