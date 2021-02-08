@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.navigationButton {
+    
+    background-color: inherit;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    
+    
+    
+}
