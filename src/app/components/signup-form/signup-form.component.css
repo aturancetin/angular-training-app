@@ -1,0 +1,41 @@
+.signupForm {
+    width: 30vw;
+    height: 55vh;
+    border: 5px solid cadetblue;
+    margin: auto;
+    margin-top: 15vh;
+    
+    align-items: center;
+    padding: 2em;
+}
+
+.signupForm form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.inputField {
+    width: 100%;
+    
+}
+
+.inputField input {
+    height: 5vh;
+    margin-bottom: 1em;
+    border: 2px solid cadetblue;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    margin: auto;
+    margin-top: 1em;
+    width: 40%;
+    height: 7vh;
+    background-color: inherit;
+    cursor: pointer;
+}
