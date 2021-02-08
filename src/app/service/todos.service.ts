@@ -27,5 +27,8 @@ export class TodosService {
   getCompleted():Observable<Todo[]> {
     return this.http.get<Todo[]>(`${this.todosUrl}?completed=true`);
   }
+  getUncompleted():Observable<Todo[]> {
+    return this.http.get<Todo[]>(`${this.todosUrl}?completed=false`);
+  }
   
 }

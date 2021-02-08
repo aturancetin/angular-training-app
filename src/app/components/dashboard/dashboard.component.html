@@ -1,7 +1,13 @@
-<h1>{{completed}}</h1>
-<h1 *ngIf="authService.user | async">
-    Welcome User: {{ (authService.user | async)?.email }}!
-</h1>
-<div *ngFor="let todo of todos">{{todo.id}}</div>
+<div class="dashboard">
+    <div class="loadingChart" *ngIf="loadingIndicator">
+        <app-loading-chart></app-loading-chart>
+    </div>
+    <div  class="chart">
+        <div id="divChart">
+            <canvas id="myChart"  ></canvas>
+        </div>
+    </div>    
+</div>
+
 
 
