@@ -1,12 +1,22 @@
-<div class="signupForm">
-    <form class="inputField" action="">
-        <label>Your email address</label>
-        <input  type="email" >
-        <label>Your password</label>
-        <input  type="password" >
-        <div class="buttons">
-            <button>Sign Up</button>
-        </div>
-    </form>
-    
+<div class="landingPage">
+    <app-landing></app-landing>
+    <div class="signupForm">
+        
+        <form class="inputField" action="">
+            <label>Your email address</label>
+            <input type="text" [(ngModel)]="email" name="email" />
+            <label>Your password</label>
+            <input type="password" [(ngModel)]="password" name="password" />
+            <div class="buttons">
+                
+                <button (click)="signup()" >
+                    Signup
+                </button>
+            </div>
+            
+        </form>
+        
+    </div>
 </div>
+
+

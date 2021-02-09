@@ -1,12 +1,19 @@
+.landingPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 3em;
+}
+
 .signupForm {
     width: 30vw;
-    height: 55vh;
-    border: 5px solid cadetblue;
-    margin: auto;
-    margin-top: 15vh;
+    height: 40vh;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
     
     align-items: center;
     padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .signupForm form {
@@ -22,10 +29,19 @@
 }
 
 .inputField input {
-    height: 5vh;
+    height: 6vh;
     margin-bottom: 1em;
-    border: 2px solid cadetblue;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding-left: .5em;
 }
+
+.inputField label {
+    font-size: .7em;
+    margin-bottom: .2em;
+}
+
+
 
 .buttons {
     display: flex;
@@ -38,4 +54,13 @@
     height: 7vh;
     background-color: inherit;
     cursor: pointer;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    color: cadetblue;
+}
+
+.buttons button:hover {
+    background-color: cadetblue;
+    color: white;
+    transition: .5s;
 }
