@@ -23,6 +23,7 @@ export class DashboardComponent implements OnInit {
   email!: string;
   password!: string;
   loadingIndicator?: boolean = true;
+  chartIndicator?: boolean = false;
   
   constructor(public authService: AuthService, router: Router, private todosService:TodosService) {
     
@@ -80,8 +81,10 @@ export class DashboardComponent implements OnInit {
               }]
           }
       }
-      })
+      });
+      
       this.loadingIndicator = false;
+      this.chartIndicator = true;
     },2000)
   }
 }

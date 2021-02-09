@@ -4,7 +4,16 @@
   
 }
 
+
+
 #divChart {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  
+}
+
+#divChart1 {
   margin: auto;
   width: 500px;
   height: 500px;
