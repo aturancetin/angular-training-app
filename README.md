@@ -11,13 +11,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Technologies and Packages
 
-<li> - Firebase SDK was used for authentication.</li>
-<li> - Angular 11 was used for the UI development.</li>
-<li> - Chart.js library was used to generate chart components.</li>
-<li> - ngx-lottie package was used for json lottie handling.</li>
-<li> - JSONPlaceholder REST API was used for the dummy data.</li>
-<li> - UX design was created with 'Miro'. </li>
-<li> - UI design was created with 'Figma' </li>
+<li> Firebase SDK was used for authentication.</li>
+<li> Angular 11 was used for the UI development.</li>
+<li> Chart.js library was used to generate chart components.</li>
+<li> ngx-lottie package was used for json lottie handling.</li>
+<li> JSONPlaceholder REST API was used for the dummy data.</li>
+<li> UX design was created with 'Miro'. </li>
+<li> UI design was created with 'Figma' </li>
 
 ## Workflow and Pages
 
