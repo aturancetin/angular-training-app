@@ -16,6 +16,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 <li> - Chart.js library was used to generate chart components.</li>
 <li> - ngx-lottie package was used for json lottie handling.</li>
 <li> - JSONPlaceholder REST API was used for the dummy data.</li>
+<li> - UX design was created with 'Miro'. </li>
+<li> - UI design was created with 'Figma' </li>
 
 ## Workflow and Pages
 
