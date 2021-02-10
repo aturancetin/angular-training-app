@@ -1,12 +1,27 @@
-<div class="navigation">
-  <div class="navigation" *ngIf="!isAuthenticated()">
+<div class="navigationBar">
+  <div class="navigationMenu" *ngIf="!isAuthenticated()">
     <a routerLink=""><button class="navigationButton" >Log In</button></a>
     <a routerLink="signup"><button class="navigationButton" >Sign Up</button> </a>
   </div>
-  <div class="navigation" *ngIf="isAuthenticated()">
+  <div class="navigationMenu" *ngIf="isAuthenticated()">
     <a  href="dashboard"><button class="navigationButton" >Dashboard</button></a>
     <a href="posts"><button class="navigationButton" >Posts</button></a>
     <a href="users"><button class="navigationButton" >Users</button></a>
     <button class="navigationButton" (click)="logout()">Logout</button>
+    
+  </div>
+  <div class="mobileNavigation" (click)="toggleMobileMenu()">X</div>
+  <div *ngIf="mobile">
+    <div class="mobileMenu" *ngIf="isAuthenticated()">
+      <a  href="dashboard"><button class="navigationButton" >Dashboard</button></a>
+      <a href="posts"><button class="navigationButton" >Posts</button></a>
+      <a href="users"><button class="navigationButton" >Users</button></a>
+      <button class="navigationButton" (click)="logout()">Logout</button>
+      
+    </div>
+    <div class="mobileMenu" *ngIf="!isAuthenticated()">
+      <a routerLink=""><button class="navigationButton" >Log In</button></a>
+      <a routerLink="signup"><button class="navigationButton" >Sign Up</button> </a>
+    </div>
   </div>
 </div>
