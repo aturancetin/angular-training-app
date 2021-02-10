@@ -5,11 +5,23 @@
     
 }
 
+@media screen and (max-width:848px) {
+    .users {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .userList {
+        align-self: center;
+        width: 50vw;
+        margin-top: 2em;
+    }
+}
+
 .userList {
     border: 1px solid cadetblue;
     height:80vh;
     overflow: scroll;
-    width: 30vw;
+    width: 20em;
     padding: 2em;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

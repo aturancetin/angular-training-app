@@ -11,6 +11,7 @@ export class NavigationComponent implements OnInit {
 
   token?:string | null = localStorage.getItem("token");
   isLoggedIn?: boolean;
+  mobile: boolean = false;
 
   constructor(private router:Router, public authService: AuthService) { 
     if(this.token) {
@@ -30,6 +31,10 @@ export class NavigationComponent implements OnInit {
   logout() {
     
     this.authService.logout();
+  }
+
+  toggleMobileMenu () {
+    this.mobile = !this.mobile;
   }
 
 }

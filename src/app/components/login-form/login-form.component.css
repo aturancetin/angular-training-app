@@ -5,12 +5,21 @@
     padding-inline: 3em;
 }
 
+@media screen and (max-width:715px ) {
+    .landingPage {
+        margin-top: 2em;
+        flex-direction: column-reverse;
+    }
+    .loginForm {
+        width: 20em;
+    }
+}
+
 .loginForm {
-    width: 30vw;
+    width: 20em;
     height: 40vh;
     border: 2px solid cadetblue;
     border-radius: 10px;
-    
     align-items: center;
     padding: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -31,7 +40,7 @@
 .inputField input {
     height: 6vh;
     margin-bottom: 1em;
-    border: 2px solid gray;
+    border: 2px solid #808080;
     border-radius: 5px;
     padding-left: .5em;
 }
@@ -54,7 +63,7 @@
     height: 7vh;
     background-color: inherit;
     cursor: pointer;
-    border: 1px solid cadetblue;
+    border: 1px solid #5f9ea0;
     border-radius: 5px;
     color: cadetblue;
 }

@@ -1,5 +1,5 @@
 .selectedUser {
-    width: 30vw;
+    width: 25em;
     display: flex;
     margin: auto;
     height: 30vh;
@@ -8,6 +8,17 @@
     border-radius: 10px;
     padding-left: 1em;
     align-items: center;
+}
+
+@media screen and (max-width:848px) {
+    .selectedUser {
+        width: 20em;
+        padding-left: 0;
+    }
+}
+
+.userInfo {
+    word-wrap: break-word;
 }
 
 .photo {

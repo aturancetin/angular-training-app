@@ -1,17 +1,41 @@
-.navigation {
+.navigationMenu {
     display: flex;
     width: 15vw;
     justify-content: space-between;
     margin-right: 2em;
 }
 
-.navigationButton {
+@media screen and (max-width: 875px) {
+    .navigationMenu {
+        display: none;
+    }
     
+}
+
+@media screen and (min-width: 875px) {
+    .mobileNavigation {
+        display: none;
+    }
+}
+
+
+.navigationButton {
     background-color: inherit;
     border: none;
     padding: 1em;
     cursor: pointer;
-    
-    
-    
 }
+
+.mobileMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 11vh;
+    left: 0;
+    width: 100vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+

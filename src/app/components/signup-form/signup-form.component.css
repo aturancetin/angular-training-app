@@ -5,12 +5,21 @@
     padding-inline: 3em;
 }
 
+@media screen and (max-width:715px ) {
+    .landingPage {
+        margin-top: 2em;
+        flex-direction: column-reverse;
+    }
+    .signupForm {
+        width: 20em;
+    }
+}
+
 .signupForm {
-    width: 30vw;
+    width: 20em;
     height: 40vh;
     border: 2px solid cadetblue;
     border-radius: 10px;
-    
     align-items: center;
     padding: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
