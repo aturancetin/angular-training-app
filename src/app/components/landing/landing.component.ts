@@ -24,7 +24,7 @@ export class LandingComponent implements OnInit {
   ngOnInit(): void {
   }
   animationCreated(animationItem: AnimationItem): void {
-    console.log(animationItem);
+    
   }
 
 }

@@ -27,6 +27,6 @@ export class LoadingChartComponent implements OnInit {
     
   }
   animationCreated(animationItem: AnimationItem): void {
-    console.log(animationItem);
+    
   }
 }

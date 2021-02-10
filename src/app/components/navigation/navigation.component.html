@@ -10,7 +10,7 @@
     <button class="navigationButton" (click)="logout()">Logout</button>
     
   </div>
-  <div class="mobileNavigation" (click)="toggleMobileMenu()">X</div>
+  <div class="mobileNavigation" (click)="toggleMobileMenu()"><img src="../../../assets/images/menuicon.png"></div>
   <div *ngIf="mobile">
     <div class="mobileMenu" *ngIf="isAuthenticated()">
       <a  href="dashboard"><button class="navigationButton" >Dashboard</button></a>

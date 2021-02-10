@@ -17,7 +17,8 @@ export class LoadingComponent implements OnInit {
     path: '/assets/loading.json',
   }
   styles: Partial<CSSStyleDeclaration> = {
-    maxWidth: '500px',
+    maxWidth: '50vw',
+    minWidth: '20em',
     margin: '0 auto',
   };
 
@@ -26,7 +27,7 @@ export class LoadingComponent implements OnInit {
   ngOnInit(): void {
   }
   animationCreated(animationItem: AnimationItem): void {
-    console.log(animationItem);
+    
   }
 
 }
