@@ -6,7 +6,7 @@ import { AnimationOptions } from 'ngx-lottie';
 @Component({
   selector: 'app-landing',
   template: `
-    <ng-lottie [styles]="styles" width="500px" [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+    <ng-lottie [styles]="styles" width="27em" [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
   `,
   styleUrls: ['./landing.component.css']
 })

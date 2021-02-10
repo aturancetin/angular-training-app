@@ -1,6 +1,6 @@
 
 .header {
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     background-color: inherit;
     box-shadow: 1px 1px #ccc;

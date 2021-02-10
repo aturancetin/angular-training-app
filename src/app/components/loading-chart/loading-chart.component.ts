@@ -15,7 +15,8 @@ export class LoadingChartComponent implements OnInit {
     path: '/assets/loadingChart.json',
   }
   styles: Partial<CSSStyleDeclaration> = {
-    maxWidth: '500px',
+    maxWidth: '50vw',
+    minWidth: '20em',
     margin: '0 auto',
   };
 
