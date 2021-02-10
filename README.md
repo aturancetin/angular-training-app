@@ -1,4 +1,5 @@
-# AssesmentApp
+<img src="https://github.com/aturancetin/angular-training-app/blob/main/src/assets/images/logo.png">
+
 
 The aim of this project is to set up an Angular web application that has authentication mechanism, can connect to a remote REST API and fetch data to the UI. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.3.
 
