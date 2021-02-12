@@ -1,6 +1,6 @@
 .users {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 2em;
     
 }
@@ -19,12 +19,12 @@
 
 .userList {
     border: 1px solid cadetblue;
-    height:80vh;
-    overflow: scroll;
-    width: 20em;
+    
+    width: 30em;
     padding: 2em;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    margin-right: 2em;
 }
 
 
