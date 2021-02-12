@@ -17,7 +17,7 @@
 
 .loginForm {
     width: 20em;
-    height: 40vh;
+    height: 15em;
     border: 2px solid cadetblue;
     border-radius: 10px;
     align-items: center;
@@ -38,7 +38,7 @@
 }
 
 .inputField input {
-    height: 6vh;
+    height: 2em;
     margin-bottom: 1em;
     border: 2px solid #808080;
     border-radius: 5px;
@@ -60,7 +60,7 @@
     margin: auto;
     margin-top: 1em;
     width: 40%;
-    height: 7vh;
+    height: 3em;
     background-color: inherit;
     cursor: pointer;
     border: 1px solid #5f9ea0;
