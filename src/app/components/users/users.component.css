@@ -19,12 +19,18 @@
 
 .userList {
     border: 1px solid cadetblue;
-    
     width: 30em;
     padding: 2em;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
     margin-right: 2em;
+    height: 30em;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.userList::-webkit-scrollbar {
+    display: none;
 }
 
 

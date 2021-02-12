@@ -1,12 +1,27 @@
 <div class="selectedUser">
+    <div *ngIf="!user" style="margin: auto;">
+        <app-click-lottie></app-click-lottie>
+        <p> Please select a user</p>
+    </div>
     
-    <p *ngIf="!user" style="margin: auto;"> Please select a user</p>
     
     <div *ngIf="user" class="userInfo">
-        <p class="userId">User Id : {{user?.id || "Please select a user"}}</p>
-        <p>Name : {{user?.name }}</p>
-        <p class="userInfo">Email : {{user?.email }}</p>
-        <p>Username : {{user?.username}}</p>
+        <div class="row innerRow gray firstRow">
+            <label class="label">User Id</label>
+            <p class="userData" >{{user?.id}}</p>
+        </div>
+        <div class="row innerRow">
+            <label class="label">Name</label>
+            <p class="userData" >{{user?.name }}</p>
+        </div>
+        <div class="row innerRow gray">
+            <label class="label">Email</label>
+            <p  >{{user?.email }}</p>
+        </div>
+        <div class="row innerRow lastRow">
+            <label class="label">Username </label>
+            <p  >{{user?.username}}</p>
+        </div>
     </div>
     
 </div>
