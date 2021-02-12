@@ -28,6 +28,7 @@ import player from 'lottie-web';
 import { LoadingComponent } from './components/loading/loading.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { LoadingChartComponent } from './components/loading-chart/loading-chart.component';
+import { ClickLottieComponent } from './components/click-lottie/click-lottie.component';
 
 
 export function playerFactory() {
@@ -51,6 +52,7 @@ export function playerFactory() {
     LoadingComponent,
     LandingComponent,
     LoadingChartComponent,
+    ClickLottieComponent,
   ],
   imports: [
     BrowserModule,
