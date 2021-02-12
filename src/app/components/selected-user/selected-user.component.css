@@ -1,13 +1,14 @@
 .selectedUser {
-    width: 25em;
+    width: 20em;
     display: flex;
     margin: auto;
-    height: 30vh;
+    height: 12em;
     border: .1em solid cadetblue;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
     border-radius: 10px;
     padding-left: 1em;
     align-items: center;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width:848px) {
@@ -24,4 +25,9 @@
 .photo {
     
     padding: 1em;
+}
+
+.userId {
+    border-bottom: .1em solid black;
+    width: 100%;
 }

@@ -1,11 +1,9 @@
 <div class="selectedUser">
     
     <p *ngIf="!user" style="margin: auto;"> Please select a user</p>
-    <div *ngIf="user" class="photo">
-        <img src="../../../assets/images/profilePhoto.png" height="100px" style="margin-bottom: 1em;">
-    </div>
+    
     <div *ngIf="user" class="userInfo">
-        <p>User Id : {{user?.id || "Please select a user"}}</p>
+        <p class="userId">User Id : {{user?.id || "Please select a user"}}</p>
         <p>Name : {{user?.name }}</p>
         <p class="userInfo">Email : {{user?.email }}</p>
         <p>Username : {{user?.username}}</p>
@@ -13,3 +11,6 @@
     
 </div>
 
+<!--<div *ngIf="user" class="photo">
+        <img src="../../../assets/images/profilePhoto.png" height="30em" style="margin-bottom: 1em;">
+    </div>-->
