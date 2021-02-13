@@ -6,17 +6,11 @@
     border: .1em solid cadetblue;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
     border-radius: 10px;
-    
     align-items: center;
     font-size: 1.1em;
 }
 
-@media screen and (max-width:848px) {
-    .selectedUser {
-        width: 20em;
-        padding-left: 0;
-    }
-}
+
 
 .userInfo {
     word-wrap: break-word;
@@ -61,4 +55,11 @@
 
 .label {
     font-weight: 600;
+}
+
+@media screen and (max-width:848px) {
+    .selectedUser {
+        width: 20em;
+        padding-left: 0;
+    }
 }

@@ -7,11 +7,12 @@
     border: 1px solid cadetblue;
     border-radius: 10px;
     height: 4em;
+    margin-inline: 2em;
 }
 
 .userCard:hover {
     
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 3px 10px 0px;
 }
 .photo {
     margin-right: 1em;
