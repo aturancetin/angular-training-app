@@ -2,14 +2,13 @@
     display: flex;
     width: 15vw;
     justify-content: space-between;
-    margin-right: 2em;
+    margin-right: 7.5em;
 }
 
 @media screen and (max-width: 875px) {
     .navigationMenu {
         display: none;
     }
-    
 }
 
 @media screen and (min-width: 875px) {
