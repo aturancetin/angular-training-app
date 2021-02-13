@@ -1,17 +1,30 @@
-.dashboard {
-  margin-top: 2em;
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0;
+  align-content: space-around;
   justify-content: center;
-  
+  padding-inline: 10em;
 }
 
+.chartCard {
+  border: none;
+  padding: 2em;
+  border: 1px solid cadetblue;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-right: 2em;
 
-
-#divChart {
-  margin: auto;
-  width: 80vw;
-  height: 70vh;
 }
 
+.divChart {
+  width: 25em;
+  height: 15em;
+}
 
-
-
+@media screen and (max-width: 875px) {
+  .chartCard {
+    margin-right: 0;
+  }
+}

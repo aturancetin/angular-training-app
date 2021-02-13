@@ -1,10 +1,30 @@
 <div class="dashboard">
-    <div class="loadingChart" *ngIf="loadingIndicator">
-        <app-loading-chart></app-loading-chart>
-    </div>
-    <div  class="chart">
-        <div id="divChart">
+    
+    <div  class="charts">
+        <div class="chartCard divChart" id="divChart">
+            <div class="loadingChart" *ngIf="loadingIndicator">
+                <app-loading-chart></app-loading-chart>
+            </div>
             <canvas id="myChart"  ></canvas>
+        </div>
+        <div class="chartCard divChart" id="divChart1">
+            <div class="loadingChart" *ngIf="loadingIndicator">
+                <app-loading-chart></app-loading-chart>
+            </div>
+            <canvas id="myChart1"  ></canvas>
+        </div>
+        
+        <div class="chartCard divChart" >
+            <div class="loadingChart" *ngIf="loadingIndicator">
+                <app-loading-chart></app-loading-chart>
+            </div>
+            <canvas id="myChart2"  ></canvas>
+        </div>
+        <div class="chartCard divChart" >
+            <div class="loadingChart" *ngIf="loadingIndicator">
+                <app-loading-chart></app-loading-chart>
+            </div>
+            <canvas id="myChart3"  ></canvas>
         </div>
     </div>    
 </div>
