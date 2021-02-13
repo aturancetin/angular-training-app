@@ -17,12 +17,14 @@
 
 .loginForm {
     width: 20em;
-    height: 15em;
+    height: 17em;
     border: 2px solid cadetblue;
     border-radius: 10px;
     align-items: center;
     padding: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .loginForm form {
@@ -30,6 +32,7 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
+    
 }
 
 .inputField {
@@ -38,7 +41,7 @@
 }
 
 .inputField input {
-    height: 2em;
+    height: 2.5em;
     margin-bottom: 1em;
     border: 2px solid #808080;
     border-radius: 5px;
