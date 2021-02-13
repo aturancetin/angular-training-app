@@ -38,5 +38,6 @@
     align-items: center;
     border-bottom: 1px solid gray;
     cursor: pointer;
+    z-index: 3;
 }
 
